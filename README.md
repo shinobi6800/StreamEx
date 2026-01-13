@@ -2,26 +2,26 @@
 
 ---
 
-# ⚡ StreamEX
+# StreamEX
 
 > A **high-performance Node.js streaming library** built with **C++** and **Boost.Asio**, designed for low-latency, bidirectional data streaming between clients and servers.
 > StreamX bridges native C++ networking with the JavaScript ecosystem via the **Node-API (N-API)** interface.
 
 ---
 
-## 🚀 Features
+## Features
 
-* 🔥 **Ultra-fast TCP streaming** using Boost.Asio
-* 🧩 **Native Node.js Addon** (C++ with N-API)
-* 🧠 **Async client/server** architecture
-* 🪶 Lightweight & zero dependencies (besides Boost and Node-API)
-* 🛡️ Cross-platform: Windows, Linux, macOS
-* 🧵 Multi-threaded event loop
-* 🔧 Easy integration with any Node.js project
+* **Ultra-fast TCP streaming** using Boost.Asio
+*  **Native Node.js Addon** (C++ with N-API)
+*  **Async client/server** architecture
+* Lightweight & zero dependencies (besides Boost and Node-API)
+* Cross-platform: Windows, Linux, macOS
+* Multi-threaded event loop
+* Easy integration with any Node.js project
 
 ---
 
-## 🧱 Project Structure
+## Project Structure
 
 ```
 streamx/
@@ -41,7 +41,7 @@ streamx/
 
 ## ⚙️ Requirements
 
-### 🧩 Node.js & Compiler
+### Node.js & Compiler
 
 * **Node.js** ≥ 18.x
 * **npm** ≥ 9.x
@@ -129,7 +129,7 @@ If Boost is not in a standard location, edit `binding.gyp`:
 
 ---
 
-## 🧩 Usage Example
+## Usage Example
 
 ```js
 const streamx = require('./build/Release/streamx.node');
@@ -162,7 +162,7 @@ client.send('Hello from client!');
 
 ---
 
-## 🧠 Internals
+## Internals
 
 StreamX uses:
 
@@ -173,7 +173,7 @@ StreamX uses:
 
 ---
 
-## 🧰 Troubleshooting
+## Troubleshooting
 
 ### ❌ `fatal error: boost/asio.hpp: No such file or directory`
 
@@ -198,7 +198,7 @@ npx node-gyp rebuild --target=$(node -v)
 
 ---
 
-## 🧠 Future Ideas
+## Future Ideas
 
 * WebSocket layer for browser compatibility
 * UDP streaming mode
@@ -208,7 +208,7 @@ npx node-gyp rebuild --target=$(node -v)
 
 ---
 
-## 📜 License
+## License
 MIT © 2025 **Miranda Nigel**
 
 
